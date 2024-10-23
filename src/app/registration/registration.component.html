@@ -1,0 +1,196 @@
+<section>
+  <h1>Registration Form</h1>
+  <div class="container">
+    <form
+      action=""
+      method="post"
+      enctype="multipart/form-data"
+      [formGroup]="Submit"
+    >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="name"
+              formControlName="name"
+              pattern="[a-zA-Z ]*"
+            />
+            <div
+              *ngIf=" registerError['name'].touched && registerError['name'].errors?.['required']"
+              class="alert"
+            >
+              Name is required
+            </div>
+            <div *ngIf="registerError['name'].errors?.['maxLength']">
+              Name must be at least 2 characters long.
+            </div>
+            <div *ngif="registerError['name'].errors?.pattern"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="phone Number"
+              formControlName="phonenumber"
+            />
+            <span
+              *ngIf="registerError['phonenumber'].touched && registerError['phonenumber'].errors?.['required']"
+              class="alert"
+            >
+              <p>message is required</p>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="E-mail"
+              formControlName="Email"
+            />
+            <div
+              *ngIf=" registerError['Email'].touched && registerError['Email'].errors?.['required']"
+              class="alert"
+            >
+              <p>message is required</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="city"
+              formControlName="city"
+            />
+            <div
+              *ngIf=" registerError['city'].touched && registerError['city'].errors?.['required']"
+              class="alert"
+            >
+              <p>message is required</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="STREET"
+              formControlName="street"
+            />
+            <div
+              *ngIf=" registerError['street'].touched && registerError['street'].errors?.['required']"
+              class="alert"
+            >
+              <p>message is required</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="message"
+              formControlName="message"
+              minlength="4"
+            />
+            <span
+              *ngIf=" registerError['message'].touched && registerError['message'].errors?.['required']"
+              class="alert alert-danger"
+            >
+              message is required
+            </span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <button type="submit" (click)="formSubmit()" class="btn">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<section>
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." class="img-fluid rounded-start" alt="..." />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- form chandrika -->
+<section class="bg-colour">
+  <div class="margin-form">
+    <form action="">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="font-color">Franchise Enquiry Form</h1>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Full name" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Mobile Number"
+            />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email id" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="City Name" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="State" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Pin Code" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <h4 class="font-color">
+            Area Pincode of the City for which you want the franchise
+          </h4>
+        </div>
+        <div class="col-md-12">
+          <button class="btn-width">Request a call back</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

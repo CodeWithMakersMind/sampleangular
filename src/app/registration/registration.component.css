@@ -1,0 +1,16 @@
+.bg-colour {
+  background-color: red;
+  width: 618px;
+}
+.margin-form {
+  padding: 60px;
+}
+.font-color {
+  color: white;
+  font-weight: 600;
+}
+.btn-width {
+  background-color: #09152c;
+  padding: 5px 169px;
+  color: white;
+}

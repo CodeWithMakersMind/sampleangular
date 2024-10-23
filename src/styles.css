@@ -1,0 +1,772 @@
+/* You can add global styles to this file, and also import other style files */
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,400;0,800;0,900;1,800&family=Roboto&family=Smooch+Sans:wght@100&display=swap");
+
+body {
+  font-family: poppins;
+}
+/* .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+   padding: 0%;
+    margin-right: auto;
+    margin-left: auto;
+} */
+img {
+  width: 100%;
+}
+.icon-img {
+  width: 100px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.com-name {
+  color: #ffa400;
+  margin: 0px 10px;
+  text-align: center;
+}
+.nav-bar {
+  display: flex;
+}
+.corousel-position {
+  position: relative;
+  z-index: 9999;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+a.nav-link {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.navlink-color {
+  color: orange;
+}
+
+/* .p-1{
+    text-align: center;
+    margin-top: 5px;
+  
+    margin-left: 25px;
+    color: orange;
+    font-weight: bold;
+} */
+.btn {
+  background-color: tomato;
+  color: aliceblue;
+}
+.btn-sec {
+  display: flex;
+  margin-top: 35px;
+}
+.college-name {
+  position: absolute;
+  top: 125px;
+  left: 200px;
+}
+.p2 {
+  margin-top: 30px;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+.bor-1 {
+  border: 1px solid red;
+}
+/* .welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+} */
+.bg-primary-1 {
+  background-color: darkcyan;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+.bg-green {
+  background-color: darkgray;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.bg-burlywood {
+  background-color: cornflowerblue;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.card-position {
+  position: relative;
+  top: -120px;
+}
+.h-1 {
+  font-weight: 700;
+}
+.card-tit {
+  font-weight: 700;
+}
+.border-1 {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+}
+.card-star {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: baseline;
+}
+.review {
+  color: gray;
+  font-size: 13px;
+}
+.like-card {
+  display: flex;
+  padding: 10px;
+  color: gray;
+}
+.like-card-1 {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+}
+.events {
+  display: flex;
+  justify-content: start;
+  width: 500px;
+  font-size: 12px;
+  margin-top: 12px;
+  color: gray;
+}
+.mar {
+  margin-left: 10px;
+}
+
+.cardstyle {
+  overflow: hidden;
+  box-shadow: 0px 0px 14px rgba(128, 128, 128, 0.611);
+}
+
+.pub {
+  justify-content: space-between;
+}
+.bg-img-1 {
+  background-image: url(assets/images/portrait-young-happy-blogger-with-modern-laptop-outdoors\ -\ Copy.jpg);
+
+  background-size: cover;
+}
+.layer {
+  background-color: #000000b0;
+  height: 100%;
+}
+.icon-1 {
+  text-align: center;
+  color: white;
+  width: 70px;
+}
+.icon-mar {
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+.bg-yellow {
+  background-color: #ffa400;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+.card-body-1 {
+  text-align: center;
+  padding: 50px;
+}
+.card-2 {
+  width: 450px;
+  border-radius: 0px;
+}
+.flex {
+  display: flex !important;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+.top {
+  margin-top: 90px;
+}
+
+.bg-img-2 {
+  background-image: url(assets/images/smiling-students-watching-media-content-having-video-call\ -\ Copy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.events-1 {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  font-size: 12px;
+  margin-top: 12px;
+  color: gray;
+}
+/* .latest{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.bg-img-3 {
+  background-image: url(/assets/images/cheerful-multiracial-group-people-jumping-together-street_23-2148192507.jpg);
+
+  background-size: cover;
+}
+.layer-1 {
+  background-color: #b87e02bd;
+  height: 100%;
+}
+.h-2 {
+  color: black;
+  font-weight: bold;
+}
+.btn-2 {
+  background-color: black;
+  border-radius: 5px;
+  width: 150px;
+  padding: 6px;
+  color: white;
+}
+.bg-color {
+  background-color: #3b3938;
+  height: 100%;
+}
+.mar-3 {
+  margin-top: 50px;
+}
+
+.bg-course {
+  background-image: url(/assets/images/cheerful-multiracial-group-people-jumping-together-street_23-2148192507.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -56px;
+}
+.btn-view {
+  background-color: orange;
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+}
+.teacher-card {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+}
+.mar-bottom {
+  border-bottom: 1px solid orange;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid orange;
+  padding: 10px;
+}
+.circle {
+  border: 1px solid orange;
+  border-radius: 23px;
+  width: 37px;
+  text-align: center;
+  padding: 6px;
+  margin-top: 25px;
+}
+.icon-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.card-date {
+  border: 1px solid orange;
+}
+.card-flex-date {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+/* .card{
+    transition: transform 0.5s ease-in;
+
+}
+.card:hover{
+transform: scale(1.1);
+background-color: #3b393862;
+color: aliceblue;
+}
+.card-1{
+    transition: transform 1.5s ease-in;
+}
+.card-1:hover{
+    transform: scale(1.3) rotate(5deg);
+
+
+} */
+.rss-feed-sec {
+  width: 170px;
+  background-color: orange;
+  border: none;
+  padding: 6px;
+  color: white;
+}
+.follow-sec {
+  width: 170px;
+  background-color: #3390ec;
+  border: none;
+  padding: 6px;
+  color: white;
+}
+.printrest-sec {
+  width: 170px;
+  background-color: #b7081b;
+  border: none;
+  padding: 6px;
+  color: white;
+}
+.facebook-sec {
+  width: 170px;
+  background-color: #1877f2;
+  border: none;
+  padding: 6px;
+  color: white;
+}
+.txt-box {
+  margin-top: 20px;
+  background: gray;
+  border: none;
+}
+.btn-sub {
+  background-color: orange;
+  border: none;
+  padding: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.header .row {
+  display: block;
+  margin: 0 auto;
+}
+.banner .carousel {
+  top: -57px;
+}
+.border-top-bottom {
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+.border-bottom-orange {
+  border-bottom: 1px solid orange;
+}
+.get-in {
+  position: relative;
+  z-index: 0;
+}
+.txt-shadow {
+  text-shadow: 2px 2px red;
+}
+.box-shadow {
+  box-shadow: 0px 0px 14px rgba(128, 128, 128, 0.611);
+}
+.hover_card:hover {
+  box-shadow: 0px 0px 14px rgba(128, 128, 128, 0.611);
+  background-color: darkcyan;
+}
+.card:hover .card-img-top {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+h5:hover {
+  color: blue;
+}
+.wave-top {
+  margin-top: -200px;
+}
+.wave-position {
+  margin-top: -135px;
+}
+.get-padding {
+  padding: 60px;
+}
+.card:hover {
+  background-color: rgb(159, 219, 242);
+}
+.display_text {
+  display: none;
+}
+.animate-pulse {
+  overflow: hidden;
+}
+.flash {
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* card */
+
+.flip {
+  width: 302px;
+  height: 299px;
+  margin: 10px;
+  float: left; /* stack each div horizontally */
+  box-shadow: 0px 0px 14px rgba(128, 128, 128, 0.611);
+}
+
+/* .img-flip
+{
+   border-radius: 10px;
+   width: 100%;
+   height: 299px;
+   
+} */
+
+.back h2 {
+  position: absolute;
+}
+
+.back p {
+  position: absolute;
+  top: 50px;
+  font-size: 15px;
+}
+
+.front h2 {
+  position: absolute;
+  padding: 10px;
+  top: 200px;
+  color: #000;
+}
+
+/* style the maincontainer class with all child div's of class .front */
+.flip > .front {
+  position: absolute;
+  transform: perspective(600px) rotateY(0deg);
+
+  width: 302px;
+  height: 290px;
+
+  backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+  transition: transform 0.5s linear 0s;
+}
+
+/* style the maincontainer class with all child div's of class .back */
+.flip > .back {
+  position: absolute;
+  transform: perspective(600px) rotateY(180deg);
+  background: white;
+  color: black;
+  width: 302px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 5px;
+  backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+  transition: transform 0.5s linear 0s;
+}
+
+.flip:hover .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.flip:hover .back {
+  transform: perspective(600px) rotateX(0deg);
+}
+
+/* .teacher-name-position{
+    position: absolute;
+    top: 195px;
+    left: 125px;
+}
+.mainflip
+{
+    width: 302px;
+    height: 299px;
+    margin: 10px;
+    float: left; 
+}
+.card-back .teacher-card
+{
+    position: absolute;
+}
+.card-back p{
+    position: absolute;
+}
+
+.mainflip > .card-front{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+   
+   
+    
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+
+}
+.mainflip > .card-back{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #262626;
+    color: #fff;
+    width: 302px;
+    height: 290px;
+    border-radius: 10px;
+    padding: 5px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+
+
+}
+.mainflip:hover .card-front{
+    transform: perspective(600px) rotateY(180deg);
+
+}
+.mainflip:hover .card-back{
+    transform: perspective(600px) rotateX(180deg);
+
+} */
+
+.flip-card {
+  background-color: transparent;
+  /* width: 300px;
+    height: 300px; */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  /* width: 100%;
+    height: 100%; */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  /* width: 100%;
+    height: 100%; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+@media (min-width: 1400px) {
+  img.p-2.icon-img {
+    width: 80px;
+  }
+  p.card-text {
+    font-size: small;
+  }
+  h5.card-title.card-tit {
+    font-size: medium;
+  }
+  a.btn.btn-primary {
+    font-size: small;
+  }
+  .up-comming-events p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: medium;
+  }
+  .col-md-2.mar-3 {
+    font-size: smaller;
+  }
+  .col-md-3.mar-3 {
+    font-size: smaller;
+  }
+  button.btn-view {
+    font-size: 12px;
+  }
+  textarea {
+    width: 635px;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 1370;
+  }
+  .corousel-height {
+    height: 600px;
+  }
+  img.p-2.icon-img {
+    width: 80px;
+  }
+  p.card-text {
+    font-size: small;
+  }
+  h5.card-title.card-tit {
+    font-size: medium;
+  }
+  a.btn.btn-primary {
+    font-size: small;
+  }
+  .up-comming-events p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: medium;
+  }
+  .col-md-2.mar-3 {
+    font-size: smaller;
+  }
+  .col-md-3.mar-3 {
+    font-size: smaller;
+  }
+  button.btn-view {
+    font-size: 12px;
+  }
+  textarea {
+    width: 415px;
+  }
+}
+@media (max-width: 1200px) {
+  /* .container{
+          width: 1140px;
+      }
+      .corousel-height {
+          height: 600px;
+      }
+      p.mt-5 {
+          margin: 0 !important;
+      }
+      h5.card-title.card-tit {
+          font-size: 16px;
+      }
+      p.card-text {
+          font-size: 12px;
+      } */
+  button.btn-view {
+    font-size: 12px;
+  }
+  textarea {
+    width: 295px;
+  }
+  .layer-1.get-padding {
+    padding: 70px;
+  }
+  .wave-top {
+    margin-top: -150px;
+  }
+}
+@media (max-width: 992px) {
+  .corousel-height {
+    height: 400px;
+  }
+  button.btn-view {
+    font-size: 12px;
+  }
+  .layer-1.get-padding {
+    padding: 60px;
+  }
+  section.bg-color.wave-top {
+    margin-top: -144px;
+  }
+}
+@media (max-width: 768px) {
+  h5.card-title.card-tit {
+    font-size: 14px;
+  }
+  p.card-text {
+    font-size: 12px;
+  }
+  a.btn.btn-primary {
+    font-size: 10px;
+  }
+  img.p-2.icon-img {
+    width: 70px;
+  }
+  p.mt-2 {
+    font-size: 12px;
+  }
+  .card-body {
+    font-size: 12px;
+  }
+  h1.h-2 {
+    font-weight: bold;
+
+    font-size: 30px;
+  }
+  .col-md-3.mar-3 {
+    font-size: x-small;
+  }
+  .up-comming-events p {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: small;
+  }
+  button.btn-2 {
+    align-items: center;
+  }
+  .col-md-2.mar-3 {
+    font-size: x-small;
+  }
+  a.navbar-brand {
+    font-size: medium;
+    color: white;
+  }
+  input.form-control.txt-box {
+    width: 150px;
+    height: 30px;
+  }
+  button.btn-view {
+    font-size: 12px;
+  }
+  textarea {
+    width: 295px;
+  }
+  .layer-1.get-padding {
+    padding: 98px;
+  }
+  section.bg-color.wave-top {
+    margin-top: -115px;
+  }
+}
+
+@media (max-width: 426px) {
+  .layer-1.get-padding {
+    padding: 38px;
+  }
+  button.btn-2 {
+    margin-bottom: 79px;
+  }
+  .display_text {
+    display: block;
+  }
+}
