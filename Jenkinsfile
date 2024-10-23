@@ -11,7 +11,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 sh "sudo rm -rf /var/www/ngular1"
-                sh "sudo cp -r ${WORKSPACE}/build/ /var/www/ngular1/"
+                sh "sudo cp -r ${WORKSPACE}/dist/ /var/www/ngular1/"
             }
         }
     }
